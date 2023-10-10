@@ -50,12 +50,20 @@ int main(int argc, char *argv[])
 	printf("This is a Bop-It Game! Place press the circle key to start the game: \n");
 	while (start != true){
 		scanf("%d,%d,%d,%d", &triangle, &circle, &x_button, &square);
+
+		printf("Debuging.....\n");
+		printf ("triangle: %i \n", triangle);
+		printf ("circle: %i \n", circle);
+		printf ("x_button: %i \n", x_button);
+		printf ("square: %i \n", square);
 		
-		
+			
+		/*
 		if (circle == 1){
 			
 			start = true;
 		}
+  */
 	}
 		game = true;
 	/* while(circle != 1){
